@@ -6,6 +6,7 @@ public class Tabuleiro implements TabuleiroInterface {
     int linhaVazia = 0;
     int colunaVazia = 0;
     boolean jogar = false;
+    String sonar = "teste";
 
     public Tabuleiro(int[][] pecas) {
         this.pecas = pecas;
